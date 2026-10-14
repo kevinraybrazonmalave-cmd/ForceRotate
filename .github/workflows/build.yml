@@ -16,7 +16,7 @@ jobs:
         with:
           gradle-version: 8.7
       - name: Descomprimir proyecto
-        run: unzip -o ForceRotate.zip
+        run: unzip -o .github/ForceRotate.zip
       - name: Compilar
         working-directory: ForceRotate
         run: gradle assembleDebug --no-daemon
